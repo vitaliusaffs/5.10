@@ -1,0 +1,67 @@
+публічний  клас  FirstTask {
+    public  static  void  main ( рядок [] аргументи ) {
+        int  n = 530 ;
+        робити {
+            n = n + 10 ;
+            система . поза . println ( n );
+        } while ( n < 650 );
+        тоді як ( n < 650 ) {
+            n = n + 10 ;
+            система . поза . println ( n );
+        }
+        для (; n < 650 ; n = n + 10 ) {
+            система . поза . println ( n );
+        }
+відкритий  клас  FiveTask {
+    public  static  void  main ( рядок [] аргументи ) {
+        int  a , b , c , d ;
+        int  num = 0 ;
+        for ( int  i = 0 ; i <= 24 ; i ++){
+            a = i / 10 ;
+            b = i % 10 ;
+            for ( int  j = 0 ; j <= 59 ; j ++){
+                c = j / 10 ;
+                d = j % 10 ;
+                якщо ( a == d & c == b ){
+                    система . поза . println ( a + "" + b + ":" + c + "" + d );
+                    число ++;
+                }
+            }
+        }
+        система . поза . println ( "Кількість співпадінь: " + num );
+    }     
+відкритий  клас  FourTask {
+    public  static  void  main ( рядок [] аргументи ) {
+        int  n , i , fac ;
+        n = 10 ;
+        i = 0 ;
+        fac = 1 ;
+        тоді як ( i < n ) {
+            i += 1 ;
+            fac = fac * i ;
+        }
+        система . поза . println ( "Факторіал " + n + " = " + fac );
+
+        int  a , b ;
+        а = 1 ;
+        b = 3 ;
+        for ( int  c = 1 ; c <= b ; c ++) {
+            a = a * c ;
+        }
+        система . поза . println ( "Факторіал " + n + " = " + fac );
+    }ублічний  клас  SecondTask {
+    public  static  void  main ( рядок [] аргументи ) {
+        for ( int  a = 2 ; a < 5000 ; a = 2 * a - 1 ){
+            система . поза . println ( a );
+        }
+    }
+}публічний  клас  ThirdTask {
+    public  static  void  main ( рядок [] аргументи ) {
+        int  i = 1 ;
+        поки ( i > 0 ) {
+            я ++;
+            якщо ( 10 % i == 0 ){
+                система . поза . println ( i );
+            }
+        }
+    }
